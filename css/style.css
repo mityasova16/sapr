@@ -3,6 +3,9 @@
     --primary-color: #FFFFFF;
     --secondly-color: #545E76;
     --only-color: #F31B62;
+    font-family:'Nunito Sans', sans-serif;
+    font-weight:400;
+    --primary-height:100%;
     font-size: 62.5%;
 }
 
@@ -11,61 +14,57 @@
     padding-top: 5rem;
     padding-bottom: 3rem;
     text-align:center;
+    line-height:var(--primary-height);
 }
 
 .back2{
     background-image: url("../images/Rectangle65393.png");
     padding-top: 5rem;
     padding-bottom: 3rem;
-    background-color: #222733;
+    background-color: var(--text-color);
+    line-height:var(--primary-height);
 }
 
 .heading11{
     color: var(--primary-color);
     font-size: 1.4rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    line-height: 100%;
+    line-height:var(--primary-height);
 }
 
 .heading12{
     color: var(--primary-color);
     font-size: 3.4rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
-    line-height: 100%;
+    line-height:var(--primary-height);
 }
 
 .heading13{
     color: var(--primary-color);
     font-size: 1.6rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
     line-height: 140%;
 }
 
 .heading14{
     color: var(--only-color);
     font-size: 1.6rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
-    line-height: 100%;
+    line-height:var(--primary-height);
 }
 
 .knopka{
     color: var(--text-color);
     font-size: 1.6rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
-    line-height: 100%;
     text-decoration: none;
+    line-height:var(--primary-height);
 }
+
 .rectangle{
 width: 70%;  
 height: 50px;
 border:1px solid;
 margin:auto;
-background: #FFFFFF; 
+background: var(--primary-color); 
 text-align: center;
 }
 
@@ -73,46 +72,35 @@ text-align: center;
 .heading22{
     color: var(--text-color);
     font-size: 2.4rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     line-height: 120%;
-    text-align:left;
 }
 
 .heading23{
     color: var(--text-color);
     font-size: 1.4rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     line-height: 170%;
-    text-align:left;
 }
 
 .cifra{
     color: var(--text-color);
     font-size: 4rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 500;
     line-height: 110%;
-    text-align:left;
 }
 
 .plus{
     color: var(--secondly-color);
     font-size: 4rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
     line-height: 110%;
-    text-align:left;
 }
 
 .text{
     color: var(--text-color);
     font-size: 1.4rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     line-height: 140%;
-    text-align:left;
 }
 
 
@@ -120,28 +108,21 @@ text-align: center;
 .heading31{
     color: var(--text-color);
     font-size: 2.2rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
     line-height: 130%;
-    text-align:left;
 }
 
 .heading32{
     color: var(--text-color);
     font-size: 1.4rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
-    line-height: 100%;
-    text-align:left;
+    line-height:var(--primary-height);
 }
 
 .heading33{
     color: var(--text-color);
     font-size: 2.2rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     line-height: 130%;
-    text-align:left;
 }
 
 
@@ -149,10 +130,8 @@ text-align: center;
 .heading43{
     color: var(--text-color);
     font-size: 1.4rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     line-height: 160%;
-    text-align:left;
 }
 
 
@@ -160,16 +139,12 @@ text-align: center;
 .heading52{
     color: var(--primary-color);
     font-size: 2.6rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
     line-height: 130%;
-    text-align:left;
 }
 
 .silka{
     color: var(--text-color);
     font-size: 1.4rem;
-    font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
     line-height: 0%;
     text-decoration: none;
@@ -178,8 +153,17 @@ text-align: center;
 h2{
     color: var(--text-color);
     font-size: 1.4rem;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    line-height: 100%;
-    text-align: left;
+    line-height:var(--primary-height);
 }
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+
