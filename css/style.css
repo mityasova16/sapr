@@ -11,16 +11,28 @@
 
 .back1 {
     background-image: url("../images/21.09.png");
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+
+    margin-left: -2.4rem;
+    margin-right: -2.4rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     text-align:center;
+    
     line-height:var(--primary-height);
 }
 
 .back2{
-    background-image: url("../images/Rectangle65393.png");
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    background-image: url("../images/fontest.png");
+    
+    margin-left: -2.4rem;
+    margin-right: -2.4rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
     background-color: var(--text-color);
     line-height:var(--primary-height);
 }
@@ -187,7 +199,7 @@ h2{
 }
 
 .pad {
-    padding: 0 2.4rem;
+    padding: 0 2.4rem 0 2.4rem;
 }
 
 .b1 {
@@ -196,4 +208,30 @@ h2{
     cursor: pointer;
     margin: 0;
     padding: 0;
+}
+
+
+#foto,#kavi{
+    position: relative;
+}
+
+#kavi{
+    top:-34px;
+    left:20px;
+}
+
+.seti {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 13.2rem;
+    margin-left: 0;
+}
+
+.foot {
+   
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 3.2rem;
+    margin: 0 auto;
 }
