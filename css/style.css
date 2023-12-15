@@ -7,40 +7,53 @@
     font-weight:400;
     --primary-height:100%;
     font-size: 62.5%;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.pad {
+    padding: 0 2.4rem 0 2.4rem;
+}
+
+.head{
+    position: absolute;
+    padding-top: 2rem;
+    text-align: center;
+    line-height: var(--primary-height);
+    width: 327px;
 }
 
 .back1 {
     background-image: url("../images/21.09.png");
-
-    margin-left: -2.4rem;
-    margin-right: -2.4rem;
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 2.4rem;
     text-align:center;
-    
     line-height:var(--primary-height);
 }
 
 .back2{
     background-image: url("../images/fontest.png");
-    
-    margin-left: -2.4rem;
-    margin-right: -2.4rem;
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
     background-color: var(--text-color);
     line-height:var(--primary-height);
+}
+
+.nord{
+    display: flex;
+    justify-content:space-between;
+    max-width: 30.4rem;
+    margin-left: 10rem;
 }
 
 .heading11{
     color: var(--primary-color);
     font-size: 1.4rem;
     line-height:var(--primary-height);
+    margin-bottom: 1.2rem;
+    margin-top: 10.6rem;
 }
 
 .heading12{
@@ -48,12 +61,15 @@
     font-size: 3.4rem;
     font-weight: 500;
     line-height:var(--primary-height);
+    margin-bottom: 1.6rem;
+    margin-top: 1.2rem;
 }
 
 .heading13{
     color: var(--primary-color);
     font-size: 1.6rem;
     line-height: 140%;
+    margin-bottom: 2.4rem;
 }
 
 .heading14{
@@ -68,18 +84,18 @@
     font-size: 1.6rem;
     font-weight: 500;
     text-decoration: none;
-    line-height:var(--primary-height);
-    width: 32.7rem;
-    height: 5rem;
 }
 
 .rectangle{
-width: 32.7rem;
-height: 5rem;
+width: 100%;
 border:1px solid;
 margin:auto;
+margin-top: 3.2rem;
 background: var(--primary-color); 
 text-align: center;
+display: block;
+max-width: 500px;
+padding-block: 1.8rem;
 }
 
 
@@ -198,9 +214,6 @@ h2{
     
 }
 
-.pad {
-    padding: 0 2.4rem 0 2.4rem;
-}
 
 .b1 {
     border: none;
@@ -221,17 +234,35 @@ h2{
 }
 
 .seti {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
     max-width: 13.2rem;
     margin-left: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .foot {
-   
-
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
     row-gap: 3.2rem;
-    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    flex-direction: column;
+}
+
+.forbs{
+    display: flex;
+    justify-content:space-between;
+    max-width: 30.4rem;
+}
+
+.forbb{
+    display: flex;
+    column-gap: 0.6rem;
+}
+
+.tel{
+    display: flex;
+    justify-content:space-between;
+    max-width: 30.4rem;
 }
