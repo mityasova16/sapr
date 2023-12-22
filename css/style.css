@@ -302,65 +302,66 @@ h2{
 
 
 /*для grid*/
-.conteiner{
+
+  .dashboard{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-areas:"panel other";
-    padding-top: 5rem;
-}
-.dashbord {
-    grid-area: panel;
-    background-color:var(--secondly-color);
-
-}
-.graf{
-    grid-area: other;
-    padding: 0 ;
-    background-color: var(--primary-color);
+    grid-template-areas: "linkss grafic";
+    margin: 10px;
+    padding-top: 90px;
+  
+  }
+  
+  .links{
+    grid-area: linkss;
+  }
+  
+  .graf{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-}
-
-
-.largbocks{
+    grid-area: grafic;
+  }
+  
+  .largbocks{
     grid-column: 1/-1;
-}
-.smallbocks{
+  }
+  
+  .smallbocks{
     grid-column: span 2;
-}
-.mediumbocks{
+  }
+  
+  .mediumbocks{
     grid-column: span 3;
-}
-
-.gallery{
+  }
+  
+  .gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(30rem, 1fr));
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    gap: 1rem;
-}
-.item{
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  }
+  
+  .item{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column: span 1;
     max-width: 100%;
-    border-radius: 0.8rem;
+    border-radius: 8px;
     justify-self: center;
     align-items: center;
-}
-.itemimg{
+  }
+  
+  .itemimg{
     grid-column: -1/1;
     grid-row-start: 1;
     max-width: 100%;
-}
-.itema{
-    background-color: var(--grey);
-    padding: 1rem 2rem;
-    justify-self: center;
-    align-items: center;
+  }
+  
+  .itema{
+    background-color: black;
+    padding: 10px 20px;
     grid-column: -1/1;
     grid-row-start: 1;
-}
+  }
+
 /* доступность  */
 .skip-link {
     
