@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/normalizer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>NORDIC</title>
+</head>
+
+<body>
+  <header class="head wrapper" style="background-color: #545E76; margin-top: auto;">
+ 
+    <a href="" class="logo"><img src="images/Group70.svg" alt=""></a>
+    <div class="nord">
+        <button class="bhead"><img src="images/menu.svg" alt=""></button>
+    </div>
+    
+  </header>
+
+    <main>
+
+        <h2 class="zag2">Форма для заполнения заявки</h2>
+
+        <div class="form">
+            <form action="//httpbin.org/post" method="post">
+                <fieldset class="privet f-1">
+                    <legend>Личная информация:</legend>
+
+                    <div>
+                        <label for="name">Имя<span>*</span></label>
+                        <input type="text" id="name" name="name" required placeholder="Иван Иванов" class="rama">
+            
+                      </div>
+            
+                      <div>
+                        <label for="dob">Дата рождения<span>*</span></label>
+                        <input type="date" id="dob" name="dob" required  class="rama">
+            
+                      </div>
+            
+                      <div>
+                        <label for="gender">Пол</label>
+                        <br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Мужской</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Женский</label>
+            
+                      </div>
+                      <div>
+                        <label for="password">Пароль<span>*</span></label>
+                        <input type="password" id="password" name="password" required  class="rama">
+            
+                      </div>
+                      <div>
+                        <label for="email">Email<span>*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="example@example.com"  class="rama">
+            
+                      </div>
+                </fieldset>
+
+                <fieldset class="f-2">
+                    <legend>Контактные данные:</legend>
+                    <div class="contan">
+                      <div>
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1234567890">
+                      </div>
+          
+                    </div>
+                    <div>
+                      <label for="contact">Удобный интервал для связи</label>
+                      <div class="stroka">
+                        <div>
+                          <select name="day part" multiple>
+                            <option value="Morning" selected>Утро</option>
+                            <option value="Afternoon">День</option>
+                            <option value="Evening">Вечер</option>
+                            <option value="Night">Ночь</option>
+                          </select>
+                        </div>
+          
+                      </div>
+          
+                    </div>
+          
+                  </fieldset>
+
+                  <div class="knop">
+                    <button type="submit" class="knop2">Отправить</button>
+                    <button type="reset" class="knop2">Сбросить</button>
+                  </div>
+
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer class="fixed-bottom">
+        <div class="foot pad">
+
+            <div>
+                <p class="silka">© 2023 Нордик кейтеринг</p>
+            </div>
+
+            <div class="tel">
+                <a class="silka" href="tel:+79119264407">+7 911 926 44 07</a>
+                <a class="silka" href="mailto:restaurant@nordic-spb.ru">restaurant@nordic-spb.ru</a>
+            </div>
+            
+            <div class = "seti">
+                <a href=""><img src="images/vk.svg" alt="" style="opacity: 0.3"></a>
+                <a href="/grid.html"><img src="images/face.svg" alt="" style="opacity: 0.3"></a>
+                <a href=""><img src="images/twit.svg" alt="" style="opacity: 0.3"></a>
+                <a href=""><img src="images/inst.svg" alt="" style="opacity: 0.3"></a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
