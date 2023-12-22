@@ -361,8 +361,22 @@ h2{
     grid-column: -1/1;
     grid-row-start: 1;
 }
-
-
+/* доступность  */
+.skip-link {
+    
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    padding: 1rem 2rem;
+    background:var(--primary-color);
+    transform: translateY(-100%);
+}
+  
+.skip-link:focus {
+      transform: translateY(25%);
+}
+/* #main{} */
 /*для form*/
 
 .fixed-bottom {
